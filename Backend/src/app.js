@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: "https://prepwise-ai-orpin.vercel.app/",
+    origin: "https://prepwise-ai-orpin.vercel.app",
     credentials: true
 }))
 
